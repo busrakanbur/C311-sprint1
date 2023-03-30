@@ -1,0 +1,60 @@
+body {
+    /* border-style:none;
+                    border-width: 20px;
+                    border-color: rebeccapurple;
+                    background-image: url(pictures/back.jpg);
+                    background-size: 700px;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-attachment: scroll;*/
+    /*sayfayla beraber kayar resim*/
+
+}
+
+.sidebar {
+    bottom: 0;
+    min-height: 100%;
+    border-style: none;
+    border-width: 20px;
+    border-color: rebeccapurple;
+    margin: 70px;
+    float: left;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+div.sidebarOption:hover {
+    color: dimgray;
+    cursor: pointer;
+}
+
+.photo_images {
+    margin: 20px;
+    width: 400px;
+}
+
+.art_images {
+    margin: 20px;
+    width: 300px;
+
+}
+
+.art_images_h {
+    margin: 20px;
+    width: 415px;
+}
+
+#icon {
+    padding-right: 10px;
+    width: 30px;
+}
+
+aside {
+    position: center;
+}
