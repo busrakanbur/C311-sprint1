@@ -1,0 +1,96 @@
+body{
+    min-height: 100%;
+}
+
+.sidebar-menu {
+    background-color: rgb(229, 229, 229);
+    min-height: 100%;
+    border-style: none;
+    border-width: 20px;
+    padding: 50px;
+    float: left;
+}
+
+#logo {
+    width: 100%;
+    max-width: 200px;
+}
+
+#written {
+    color: rgb(87, 98, 109);
+}
+
+div.sidebarOption:hover {
+    color: rgb(87, 98, 109);
+    cursor: pointer;
+}
+
+#icon {
+    padding-right: 10px;
+    width: 40px;
+}
+
+#right-side {
+    overflow: auto;
+    position: relative;
+}
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+#menu-list {
+    list-style: none;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 42px;
+}
+#menu-list li a {
+    text-decoration: none;
+    color: black;
+    transition: .5s;
+}
+#menu-list li a:hover {
+    color: blue;
+    transition: .5s;
+}
+
+.photo_images {
+    margin: 20px;
+    width: 420px;
+}
+
+#main-content {
+    padding: 3rem 1rem;
+}
+
+#main-content img {
+    width: 100%;
+    max-width: 240px;
+}
+.images-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+aside {
+    position: center;
+}
+
+
+footer{
+    background-color: rgb(36, 36, 36);
+
+    bottom: 0;
+    left: 0;  
+right: 0;
+}
+.copyright{
+    color: whitesmoke;
+    text-align: center;
+    margin: 0;
+}
